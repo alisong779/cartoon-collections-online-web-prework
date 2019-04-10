@@ -22,6 +22,6 @@ def find_the_cheese(arr)
     arr.select do |x|
     if x.include?(cheese_types) then return x
 end 
-
+end 
     
 
