@@ -18,12 +18,8 @@ end
 end
 
 def find_the_cheese(arr)
-  new_arr = []
   cheese_types = ["cheddar", "gouda", "camembert"]
-    arr.include? do |x|
-      new_arr << if x == cheese_types
-end
-new_arr
+    arr.include?(cheese_types)
 end 
 end
     
