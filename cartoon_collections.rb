@@ -19,7 +19,6 @@ end
 
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.to_s
     arr.select do |x|
     if x.include?(cheese_types) then return x
 end 
