@@ -20,11 +20,14 @@ end
 
 def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    new_var = arr.select do |x|
-    if cheese_types.include?(x) then return x
+  new_var = arr.select do |x|
+    if cheese_types.include?(x)
+      return x
+    end 
+  end
+ if new_var == [] 
+   return nil 
   end 
- if new_var == [] then return nil 
-end 
 end
-    
+end    
 
