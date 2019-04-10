@@ -25,9 +25,9 @@ def find_the_cheese(arr)
       return x
     end 
   end
- if new_var == [] 
+  if new_var == [] 
    return nil 
   end 
 end
-end    
+
 
