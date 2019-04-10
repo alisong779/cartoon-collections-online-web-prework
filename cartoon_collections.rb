@@ -23,7 +23,7 @@ def find_the_cheese(arr)
     new_var = arr.select do |x|
     if cheese_types.include?(x) then return x
   end 
- if new_var == [] return nil 
+ if new_var == [] then return nil 
 end 
 end
     
